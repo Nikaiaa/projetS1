@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald&family=Raleway:wght@100&display=swap');
+
+header>nav {
+    font-family: "Fjalla One",sans-serif;
+    color: white;
+    font-size: 45pt
+}
+body>nav>ul>li>a {
+    font-family: "Fjalla One",sans-serif;
+    font-size: 33pt;
+    line-height: 44px;
+    margin: 0;
+    color: white;
+
+}
+html {
+    color: white;
+}
+header {
+    font-family: Raleway,sans-serif;
+    font-size: 13px;
+    font-height: 15px;
+    text-align: center;
+}
