@@ -347,32 +347,12 @@ template {
   display: none;
 }
 body {
-  background-color:#00022E;
-  background-image:url("https://cdn.discordapp.com/attachments/778532770280112163/782188998113624094/background.png");
+  background-color: #00022E;
+  background-image: url("https://cdn.discordapp.com/attachments/778532770280112163/782188998113624094/background.png");
   background-attachment: fixed;
   background-size: 100%;
-
-}
-header>nav {
-  background-color: #08143F;
-
 }
 header {
-  width: 1500px;
-}
-header>h1 {
-  text-align: center;
-}
-body {
-  width: 100%;
-  display: block;
-  float: left;
-  margin: 0;
-}
-
-header>nav {
-  width: 100%;
-  height: 10%;
-  display: block;
-  float: left;
+  background-color: #08143F;
+  height: 200pt;
 }
