@@ -22,3 +22,16 @@ header {
     font-weight: normal;
     text-align: center;
 }
+
+h3 {
+    font-family: Ubuntu,sans-serif;
+    font-size: 35pt;
+    line-height: 26pt;
+    margin-left: 40pt;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-family: Ubuntu, sans-serif;
+    font-size: 23pt;
+}
