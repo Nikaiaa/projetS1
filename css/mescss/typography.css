@@ -3,7 +3,8 @@
 header>nav {
     font-family: "Fjalla One",sans-serif;
     color: white;
-    font-size: 45pt
+    font-size: 40pt
+
 }
 body>nav>ul>li>a {
     font-family: "Fjalla One",sans-serif;
@@ -27,7 +28,7 @@ h3 {
     font-family: Ubuntu,sans-serif;
     font-size: 35pt;
     line-height: 26pt;
-    margin-left: 40pt;
+    margin-left: 35pt;
 }
 a {
     text-decoration: none;

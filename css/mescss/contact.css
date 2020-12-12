@@ -1,0 +1,81 @@
+footer>img {
+    height: 130px;
+    width: 130px;
+    margin-top :60px;
+    padding-right: 20px;
+    white-space: normal;
+}
+
+footer {
+    background-color: #08143F;
+    line-height: 60pt;
+    font-size: 30pt;
+    font-family: "Fjalla One",sans-serif;
+    height: 400pt;
+    width: 100%;
+    margin-top: 60px;
+}
+
+body>h1 {
+    font-family: Ubuntu, sans-serif;
+    font-size: 70pt;
+    text-align: center;
+}
+div.contenu {
+    font-family: Raleway, sans-serif;
+    font-size:30pt;
+    font-height: 18pt;
+    background-color:rgba(0,2,46,70%);
+    width: 950px;
+    height: 1700px;
+    margin-left: 20px;
+    padding-bottom:50px;
+}
+form {
+    font-family: Ubuntu, sans-serif;
+    font-size: 30pt;
+    margin: 10px;
+    padding: 1em;
+}
+
+form div + div {
+    margin-top: 2em;
+}
+
+label {
+    display: inline-block;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    border-color: #000;
+}
+
+textarea {
+    width: 850px;
+    height: 600px;
+}
+
+.button {
+    padding-left: 90px;
+}
+
+button {
+    display:block;
+    width:270px;
+    height: 100px;
+    text-align: center;
+    vertical-align:middle;
+    background-color: #FE9572;
+    border-radius: 50px;
+    margin-left: 500px;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+

@@ -43,15 +43,15 @@ article>iframe {
 }
 
 div.special>img{
-    width: 500px;
-    height: 758px;
-    margin-left: 220px;
+    width: 736px;
+    height: 570px;
+    margin-left: 110px;
     margin-top: 70px;
 }
 article {
     background-color:rgba(0,2,46,70%);
     width: 950px;
-    height: 6200px;
+    height: 6300px;
     margin-left: 20px;
     padding-bottom:50px;
 }
@@ -74,15 +74,8 @@ nav>h2 {
 }
 body>h1{
     font-family:Ubuntu, sans-serif;
-    font-size: 60pt;
-    line-height: 20pt;
-    padding-right: 270px;
+    font-size: 50pt;
     text-align: center;
-
-}
-body>h2 {
-    font-family: Ubuntu, sans-serif;
-    font-size: 55pt;
-    line-height: 15pt;
-    text-align: center;
+    margin-top: 50px;
+    margin-left: 150px;
 }
