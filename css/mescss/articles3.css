@@ -1,26 +1,40 @@
 nav>img {
-    width: 250px;
-    height: 100%;
     object-fit: cover;
-    margin-right: 50px;
     float: left;
+    width: 300px;
+    height: 300px;
 }
-footer>img {
+
+.gmail,
+.Linke,
+.insta {
     height: 130px;
     width: 130px;
-    margin-top :60px;
     padding-right: 20px;
-    white-space: normal;
+    float:left;
+    margin-top: 170px;
 }
-footer {
+footer,
+footer>a{
     background-color: #08143F;
-    line-height: 60pt;
-    font-size: 30pt;
     font-family: "Fjalla One",sans-serif;
-    height: 400pt;
-    width: 100%;
+    position: absolute;
     margin-top: 60px;
+    width: 100%;
 }
+footer>p,
+footer>p>a {
+    line-height: 50pt;
+    font-size: 40pt;
+    text-align: center;
+    color: white;
+}
+.mmi {
+    width: 200px;
+    height: 200px;
+    padding-left: 300px;
+}
+
 article>p{
     font-family: Raleway,sans-serif;
     font-size: 27pt;
@@ -32,8 +46,9 @@ article>img{
     width: 661pt;
     height:444pt;
     margin-left: 45px;
+    margin-top: 30px;
 }
-article>iframe {
+article>video {
     width: 661pt;
     height: 444pt;
     margin-left: 50px;
@@ -45,14 +60,9 @@ div.special>img{
     margin-left: 110px;
     margin-top: 70px;
 }
-article {
-    background-color:rgba(0,2,46,70%);
-    width: 950px;
-    height: 6300px;
-    margin-left: 20px;
-    padding-bottom:50px;
-}
-div.boutonsdeux{
+div.boutonsdeux {
+    font-family: Ubuntu, sans-serif;
+    font-size: 17pt;
     display:block;
     width:270px;
     height: 70px;
@@ -61,17 +71,29 @@ div.boutonsdeux{
     background-color: #FE9572;
     border-radius: 50px;
     margin-left: 650px;
-    margin-top: 10px;
+    margin-top: 30px;
     padding-top: 15px;
-}
-nav>h2 {
-    padding-right:200px;
-    padding-top: 50px;
 }
 body>h1{
     font-family:Ubuntu, sans-serif;
-    font-size: 50pt;
-    text-align: center;
-    margin-top: 50px;
-    margin-left: 150px;
+    font-size: 60pt;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+div.special>img{
+    width: 736px;
+    height: 570px;
+    margin-left: 110px;
+
+}
+article {
+    background-color:rgba(0,2,46,70%);
+    width: 950px;
+    height: 6000px;
+    margin-left: 20px;
+    padding-bottom:50px;
+}
+a {
+    color: white;
+    text-decoration: none;
 }

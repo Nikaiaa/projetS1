@@ -14,38 +14,47 @@ body>p,div.bloc{
     text-align: center;
 }
 nav>img {
-    width: 250px;
-    height: 250px;
     object-fit: cover;
-    margin-right: 50px;
-
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+.gmail,
+.Linke,
+.insta {
+    height: 130px;
+    width: 130px;
+    padding-right: 20px;
 }
 footer {
     background-color: #08143F;
-    line-height: 60pt;
-    font-size: 20pt;
     font-family: "Fjalla One",sans-serif;
-    height: 250pt;
+    position: absolute;
+    margin-top: 60px;
     width: 100%;
-
 }
-footer>img {
-    height: 130px;
-    width: 130px;
-    margin-top :60px;
-    padding-right: 20px;
-    white-space: normal;
+footer>p {
+    line-height: 50pt;
+    font-size: 40pt;
+    text-align: center;
 }
-
-nav {
-    float: left;
+.mmi {
+    width: 200px;
+    height: 200px;
+    padding-left: 300px;
 }
-body>img {
+div.bloc>img {
     height: 344pt;
     width: 260pt;
-    margin-left: 300px;
 }
 strong {
     font-family: Ubuntu,sans-serif;
     font-size: 30pt;
+}
+div.bloc {
+    background-color:rgba(0,2,46,70%);
+    width: 950px;
+    height: 5300px;
+    margin-left: 20px;
+    padding-bottom:50px;
 }

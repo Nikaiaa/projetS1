@@ -1,28 +1,33 @@
 nav>img {
-    width: 250px;
-    height: 100%;
     object-fit: cover;
-    margin-right: 50px;
     float: left;
+    width: 300px;
+    height: 300px;
 }
-footer>img {
+
+.gmail,
+.Linke,
+.insta {
     height: 130px;
     width: 130px;
-    margin-top :60px;
     padding-right: 20px;
-    white-space: normal;
 }
-
 footer {
     background-color: #08143F;
-    line-height: 60pt;
-    font-size: 30pt;
     font-family: "Fjalla One",sans-serif;
-    height: 400pt;
-    width: 100%;
+    position: absolute;
     margin-top: 60px;
-
-
+    width: 100%;
+}
+footer>p {
+    line-height: 50pt;
+    font-size: 40pt;
+    text-align: center;
+}
+.mmi {
+    width: 200px;
+    height: 200px;
+    padding-left: 300px;
 }
 article>p{
     font-family: Raleway,sans-serif;
@@ -36,7 +41,7 @@ article>img{
     height:444pt;
     margin-left: 45px;
 }
-article>iframe {
+article>video {
     width: 661pt;
     height: 444pt;
     margin-left: 50px;
@@ -68,21 +73,14 @@ div.boutonsdeux{
     margin-top: 10px;
     padding-top: 15px;
 }
-nav>h2 {
-    padding-right:200px;
-    padding-top: 50px;
-}
 body>h1{
     font-family:Ubuntu, sans-serif;
-    font-size: 60pt;
-    line-height: 20pt;
-    padding-right: 270px;
-    text-align: center;
+    font-size: 57pt;
 
 }
 body>h2 {
     font-family: Ubuntu, sans-serif;
-    font-size: 55pt;
+    font-size: 45pt;
     line-height: 15pt;
     text-align: center;
 }

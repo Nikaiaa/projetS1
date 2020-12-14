@@ -1,19 +1,32 @@
-footer>img {
+nav>img {
+    object-fit: cover;
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+.gmail,
+.Linke,
+.insta {
     height: 130px;
     width: 130px;
-    margin-top :60px;
     padding-right: 20px;
-    white-space: normal;
 }
-
 footer {
     background-color: #08143F;
-    line-height: 60pt;
-    font-size: 30pt;
     font-family: "Fjalla One",sans-serif;
-    height: 400pt;
-    width: 100%;
+    position: absolute;
     margin-top: 60px;
+    width: 100%;
+}
+footer>p {
+    line-height: 50pt;
+    font-size: 40pt;
+    text-align: center;
+}
+.mmi {
+    width: 200px;
+    height: 200px;
+    padding-left: 300px;
 }
 
 body>h1 {
@@ -72,6 +85,7 @@ button {
     height: 100px;
     text-align: center;
     vertical-align:middle;
+    color: white;
     background-color: #FE9572;
     border-radius: 50px;
     margin-left: 500px;
