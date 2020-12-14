@@ -346,13 +346,3 @@ template {
 [hidden] {
   display: none;
 }
-body {
-  background-color: #00022E;
-  background-image: url("https://cdn.discordapp.com/attachments/778532770280112163/782188998113624094/background.png");
-  background-attachment: fixed;
-  background-size: 100%;
-}
-header {
-  background-color: #08143F;
-  height: 300px;
-}

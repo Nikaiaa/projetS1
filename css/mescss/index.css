@@ -1,6 +1,16 @@
 html {
     font-size : 62.5%;
 }
+header {
+    background-color: #08143F;
+    height: 300px;
+}
+body {
+    background-color: #00022E;
+    background-image: url("https://cdn.discordapp.com/attachments/778532770280112163/782188998113624094/background.png");
+    background-attachment: fixed;
+    background-size: 100%;
+}
 h3 {
     font-family: Ubuntu, sans-serif;
     font-size: 30pt;
