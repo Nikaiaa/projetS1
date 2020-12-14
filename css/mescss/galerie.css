@@ -21,18 +21,23 @@ nav>img {
     height: 130px;
     width: 130px;
     padding-right: 20px;
+    float:left;
+    margin-top: 170px;
 }
-footer {
+footer,
+footer>a{
     background-color: #08143F;
+    font-family: "Fjalla One",sans-serif;
     position: absolute;
     margin-top: 60px;
     width: 100%;
 }
-footer>p {
-    font-family: Fjalla One,sans-serif;
+footer>p,
+footer>p>a {
     line-height: 50pt;
     font-size: 40pt;
     text-align: center;
+    color: white;
 }
 .mmi {
     width: 200px;
@@ -40,7 +45,7 @@ footer>p {
     padding-left: 300px;
 }
 
-div.contenu>img {
+div.contenu>a>img {
     height: 344pt;
     width: 260pt;
 }
@@ -61,4 +66,8 @@ div.contenu {
 }
 div.contenu>p {
     padding-top: 30px;
+}
+a {
+    text-decoration: none;
+    color: white;
 }

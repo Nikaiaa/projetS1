@@ -3,13 +3,17 @@ html {
 }
 h3 {
     font-family: Ubuntu, sans-serif;
+    font-size: 30pt;
     line-height: 20pt;
 }
 .carousel-item>p {
     font-family: raleway, sans-serif;
+    font-size: 30pt;
+    line-height: 30pt;
 }
 a {
     text-decoration: none;
+    color: white;
 }
 img {
     width: 800px;
@@ -35,24 +39,30 @@ li.carousel-item{
     height: 130px;
     width: 130px;
     padding-right: 20px;
+    float:left;
+    margin-top: 170px;
 }
-footer {
+footer,
+footer>a{
     background-color: #08143F;
     font-family: "Fjalla One",sans-serif;
     position: absolute;
     margin-top: 60px;
     width: 100%;
 }
-footer>p {
+footer>p,
+footer>p>a {
     line-height: 50pt;
     font-size: 40pt;
     text-align: center;
+    color: white;
 }
 .mmi {
     width: 200px;
     height: 200px;
     padding-left: 300px;
 }
+
 ::webkit-scrollbar {
     height: 2px;
 }

@@ -11,8 +11,11 @@ nav>img {
     height: 130px;
     width: 130px;
     padding-right: 20px;
+    float:left;
+    margin-top: 170px;
 }
-footer {
+footer,
+footer>a{
     background-color: #08143F;
     font-family: "Fjalla One",sans-serif;
     position: absolute;
@@ -23,19 +26,29 @@ footer>p {
     line-height: 50pt;
     font-size: 40pt;
     text-align: center;
+    color: white;
+    text-decoration: none;
 }
 .mmi {
     width: 200px;
     height: 200px;
     padding-left: 300px;
 }
-article>p{
+
+article>p {
     font-family: Raleway,sans-serif;
     font-size: 27pt;
     text-align: left;
     margin-left: 45px;
     margin-right:50px;
 }
+article>p>a {
+    font-family: Raleway,sans-serif;
+    font-size: 27pt;
+    text-align: left;
+    text-decoration: underline;
+}
+
 article>img{
     width: 661pt;
     height:444pt;
@@ -53,7 +66,8 @@ div.special>img{
     margin-left: 220px;
     margin-top: 70px;
 }
-article {
+article,
+article>a{
     background-color:rgba(0,2,46,70%);
     width: 950px;
     height: 6200px;
@@ -62,6 +76,8 @@ article {
 }
 div.bouton,
 div.boutonsdeux{
+    font-family: Ubuntu, sans-serif;
+    font-size: 17pt;
     display:block;
     width:270px;
     height: 70px;
@@ -75,7 +91,8 @@ div.boutonsdeux{
 }
 body>h1{
     font-family:Ubuntu, sans-serif;
-    font-size: 57pt;
+    font-size: 80pt;
+    text-align: center;
 
 }
 body>h2 {
@@ -83,4 +100,8 @@ body>h2 {
     font-size: 45pt;
     line-height: 15pt;
     text-align: center;
+}
+a {
+    color: white;
+    text-decoration: none;
 }
