@@ -4,7 +4,7 @@ div.contenu>img {
     border-radius:70%;
     margin-top: 50px;
 }
-nav>img {
+nav>a>img {
     object-fit: cover;
     float: left;
     width: 300px;

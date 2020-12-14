@@ -1,9 +1,10 @@
-nav>img {
+nav>a>img {
     object-fit: cover;
     float: left;
     width: 300px;
     height: 300px;
 }
+
 .gmail,
 .Linke,
 .insta {
