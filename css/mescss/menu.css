@@ -1,6 +1,6 @@
 .nav-toggle{
-    width: 30px;
-    height: 30px;
+    width: 150px;
+    height: 150px;
     position: absolute;
     top: 20px;
     right: 30px;
@@ -14,10 +14,11 @@
 .nav-toggle-bar::before,
 .nav-toggle-bar::after{
     content: '';
-    background: #BFA47A;
-    height: 4px;
+    background: #43A8B5;
+    height: 6px;
     width: 100%;
     position: absolute;
+    margin-top: 35px;
     transition: all .5s ease;
 }
 
@@ -35,7 +36,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: #191A1B;
+    background-color: #00022E;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,15 +48,18 @@
 }
 
 .menu ul {
+    font-family: "Fjalla One",sans-serif;
     list-style: none;
     padding: 0;
     margin: 0;
-    font-size: 20px;
+    margint-top: 10px;
+    text-align: center;
+    font-size: 60px;
     text-transform: uppercase;
 }
 
 .menu li {
-    margin-bottom: 40px;
+    margin-bottom: 100px;
 
 
 }
@@ -77,12 +81,17 @@
 
 .menu-open .nav-toggle-bar{
     transform: rotate(135deg);
-    background: #BFA47A;
+    background: #43A8B5;
 }
 
 .menu-open .nav-toggle-bar::before,
 .menu-open .nav-toggle-bar::after{
     top:0;
     transform: rotate(90deg);
-    background:#BFA47A;
+    background:#43A8B5;
+}
+h1 {
+    position:  absolute;
+    font-family: "Fjalla One",sans-serif;
+    font-size: 40pt;
 }
